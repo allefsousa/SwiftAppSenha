@@ -12,6 +12,9 @@
 		D0E8DC82217BAE5700597EA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E8DC80217BAE5700597EA7 /* Main.storyboard */; };
 		D0E8DC84217BAE5700597EA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E8DC83217BAE5700597EA7 /* Assets.xcassets */; };
 		D0E8DC87217BAE5700597EA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E8DC85217BAE5700597EA7 /* LaunchScreen.storyboard */; };
+		D0E8DC8F217CE7F800597EA7 /* PasswordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E8DC8E217CE7F800597EA7 /* PasswordsViewController.swift */; };
+		D0E8DC91217CE91A00597EA7 /* SecurityTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E8DC90217CE91A00597EA7 /* SecurityTipsViewController.swift */; };
+		D0E8DC93217CEA1900597EA7 /* PasswordGenerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E8DC92217CEA1900597EA7 /* PasswordGenerated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		D0E8DC83217BAE5700597EA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0E8DC86217BAE5700597EA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0E8DC88217BAE5700597EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E8DC8E217CE7F800597EA7 /* PasswordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordsViewController.swift; sourceTree = "<group>"; };
+		D0E8DC90217CE91A00597EA7 /* SecurityTipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurityTipsViewController.swift; sourceTree = "<group>"; };
+		D0E8DC92217CEA1900597EA7 /* PasswordGenerated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordGenerated.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,12 @@
 				D0E8DC7C217BAE5700597EA7 /* AppDelegate.swift */,
 				D0E8DC7E217BAE5700597EA7 /* ViewController.swift */,
 				D0E8DC80217BAE5700597EA7 /* Main.storyboard */,
+				D0E8DC90217CE91A00597EA7 /* SecurityTipsViewController.swift */,
+				D0E8DC8E217CE7F800597EA7 /* PasswordsViewController.swift */,
 				D0E8DC83217BAE5700597EA7 /* Assets.xcassets */,
 				D0E8DC85217BAE5700597EA7 /* LaunchScreen.storyboard */,
 				D0E8DC88217BAE5700597EA7 /* Info.plist */,
+				D0E8DC92217CEA1900597EA7 /* PasswordGenerated.swift */,
 			);
 			path = superSenha;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E8DC91217CE91A00597EA7 /* SecurityTipsViewController.swift in Sources */,
 				D0E8DC7F217BAE5700597EA7 /* ViewController.swift in Sources */,
+				D0E8DC8F217CE7F800597EA7 /* PasswordsViewController.swift in Sources */,
 				D0E8DC7D217BAE5700597EA7 /* AppDelegate.swift in Sources */,
+				D0E8DC93217CEA1900597EA7 /* PasswordGenerated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +316,7 @@
 				D0E8DC8D217BAE5700597EA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
